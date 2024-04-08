@@ -1,0 +1,17 @@
+import React from "react";
+
+const Card=(props)=>{
+    return(
+        <div className="timeline_item">
+        <i className={props.icon}></i>
+        <span className="timeline__date">{props.year}</span>
+        <h3 className="timeline__title">{props.title}</h3>
+        <p className="timeline__text">{props.desc}</p>
+        <p className="timeline__text">{props.desc1}</p>
+        <br></br>
+        </div>
+        
+    );
+};
+
+export default Card;
