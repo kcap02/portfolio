@@ -6,7 +6,8 @@ import projImg2 from "../img/Capture d’écran du 2024-03-26 17-18-22.png";
 import projImg3 from "../img/Capture d’écran du 2024-03-29 22-43-44.png";
 import projImg4 from "../img/Capture d’écran du 2024-04-06 02-18-09.png";
 import projImg5 from "../img/WhatsApp Image 2024-04-07 at 19.47.50.jpeg";
-import projVid from "../img/video.mp4";
+import projImg6 from "../img/rfid.png";
+import projVid from "../img/video_1.mp4";
 import colorSharp2 from "../img/photo_perso.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -40,6 +41,12 @@ export const Projects = () => {
       title: "HR Dashboard",
       description: "Power BI",
       imgUrl: projImg5,
+    },
+
+    {
+      title: "RFID Tags Detection",
+      description: "Python, Machine learning, API",
+      imgUrl: projImg6,
     },
    
    
