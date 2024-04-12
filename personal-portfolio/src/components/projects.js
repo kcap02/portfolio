@@ -32,7 +32,7 @@ export const Projects = () => {
 
     {
       title: "Prediction of an individual's income range based on demographic characteristics",
-      description: "Python Machine, learning(Naive Bayes, Logistic Regression, Random Forest, Decision Tree)",
+      description: "Python, Machine learning(Naive Bayes, Logistic Regression, Random Forest, Decision Tree)",
       imgUrl: projImg4,
     },
 
